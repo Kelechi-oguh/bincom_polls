@@ -1,0 +1,1 @@
+web: gunicorn bincom_polls.wsgi

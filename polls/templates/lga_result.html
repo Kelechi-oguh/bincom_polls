@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>LGA: {{ lga.lga_name }}</h1>
+<p>------------------------------</p>
+
+{% for k, v in parties.items %}
+<p>Party: {{ k }}</p>
+<p>Party_Score: {{ v }}</p>
+<p>_____________________________________________</p>
+{% endfor %}
+
+
+{% endblock content %}
