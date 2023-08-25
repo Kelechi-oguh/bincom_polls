@@ -5,9 +5,9 @@
     {% block content %}
     <h1>Hello Bincom!</h1>
 
-    <p style="font-weight:bold; font-size: larger;">Question_1_url:    <span style="margin-left: 20px;">{{ Question_1 }}</span></p>
-    <p style="font-weight:bold; font-size: larger;">Question_2_url:    <span style="margin-left: 20px;">{{ Question_2 }}</span></p>
-    <p style="font-weight:bold; font-size: larger;">Question_3_url:    <span style="margin-left: 20px;">{{ Question_3 }}</span></p>
+    <p style="font-weight:bold; font-size: larger;">Question_1_url: <span style="margin-left: 20px;">{{ Question_1 }}</span> <span style="margin-left: 20px;"># Use the polling_unit_uniqueid</span></p>
+    <p style="font-weight:bold; font-size: larger;">Question_2_url: <span style="margin-left: 20px;">{{ Question_2 }}</span> <span style="margin-left: 120px;"># Use the lga_id</span></p>
+    <p style="font-weight:bold; font-size: larger;">Question_3_url: <span style="margin-left: 20px;">{{ Question_3 }}</span> <span style="margin-left: 120px;"># A form page to create new polling unit and results</span></p>
     {% endblock content %}
 </body>
 </html>

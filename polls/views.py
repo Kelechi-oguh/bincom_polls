@@ -1,5 +1,5 @@
 from django.shortcuts import render, Http404, HttpResponse
-from .models import PollingUnit, AnnouncedPuResults, Lga, Party
+from .models import PollingUnit, AnnouncedPuResults, Lga
 from .forms import polling_unit_form, result_form
 
 # Create your views here.
